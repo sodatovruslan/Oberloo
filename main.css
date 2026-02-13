@@ -207,4 +207,117 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.sectionFour {
+  margin-top: 100px;
+  background-color: #333333;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.sectionFour .Backgrondimg {
+  background-image: url(./Rectangle\ 271.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+.sectionFour .podcast {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.sectionFour .pThe {
+  width: 440px;
+  font-size: 64px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.sectionFour .leftbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.sectionFour .pbl {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  color: white;
+}
+.sectionFour .Audi {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+  color: white;
+}
+.sectionFour .pwhen {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  width: 340px;
+  color: white;
+}
+.sectionFour .pshort {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333;
+  width: 340px;
+  line-height: 20px;
+  color: white;
+}
+.sectionFour .Display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sectionFour .ptext {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.sectionFour .author {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  color: white;
+}
+.sectionFour .plorem {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  width: 460px;
+  line-height: 28px;
+  width: 348px;
+}
+.sectionFour .LineHeight {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectionFour .secondChild {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionFour .divsecond {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sectionFour .divflex {
+  display: flex;
+  margin-top: 20px;
+  gap: 40px;
+}
+.sectionFour .fourChild {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
 }/*# sourceMappingURL=main.css.map */

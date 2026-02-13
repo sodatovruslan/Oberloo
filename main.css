@@ -320,4 +320,79 @@
   width: 80%;
   margin: auto;
   margin-top: 50px;
+}
+
+.sectionFive {
+  padding-bottom: 30px;
+}
+.sectionFive .urdates {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.sectionFive .hr4 {
+  width: 94%;
+  margin: auto;
+  margin-top: 40px;
+}
+.sectionFive .divsecond {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sectionFive .pbl {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectionFive .Audi {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
+.sectionFive .pwhen {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  width: 340px;
+}
+.sectionFive .pshort {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333;
+  width: 340px;
+  line-height: 20px;
+}
+.sectionFive .Display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sectionFive .ptext {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+.sectionFive .FlexBot {
+  display: flex;
+  flex-wrap: wrap;
+  width: 74%;
+  gap: 50px;
+  margin: auto;
+  margin-top: 50px;
+}
+.sectionFive .author {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectionFive .plorem {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  width: 460px;
+  line-height: 28px;
+  width: 348px;
 }/*# sourceMappingURL=main.css.map */

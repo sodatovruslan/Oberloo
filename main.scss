@@ -187,5 +187,42 @@ color: #828282;
 		justify-content: center;
 	}
 }
+	
+	.sectionThree{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-top: 160px;
+		.moredata{
+		@include Bigtext;
+	}
+	.int1{
+		width: 360px;
+		height: 40px;
+		border-radius: 10px;
+	}
+	.butSign{
+		width: 153px;
+		height: 40px;
+		background-color:#2642F8 ;
+		border-radius: 50px;
+		font-size: 16px;
+		font-weight: 500;
+		color: #F2F2F2;
+		border: none;
+	}
+	.let{
+		font-size: 18px;
+		font-weight: 500;
+		color: #828282;
+		width: 405px;
+		line-height: 24px;
+	}
+	.LinIn{
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	}
 
 

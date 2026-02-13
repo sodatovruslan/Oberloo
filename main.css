@@ -167,4 +167,44 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.sectionThree {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 160px;
+}
+.sectionThree .moredata {
+  font-size: 44px;
+  font-weight: 700;
+  color: #000000;
+  width: 417px;
+}
+.sectionThree .int1 {
+  width: 360px;
+  height: 40px;
+  border-radius: 10px;
+}
+.sectionThree .butSign {
+  width: 153px;
+  height: 40px;
+  background-color: #2642F8;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #F2F2F2;
+  border: none;
+}
+.sectionThree .let {
+  font-size: 18px;
+  font-weight: 500;
+  color: #828282;
+  width: 405px;
+  line-height: 24px;
+}
+.sectionThree .LinIn {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }/*# sourceMappingURL=main.css.map */

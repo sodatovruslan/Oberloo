@@ -320,5 +320,63 @@ color: white
 		margin-top: 50px;
 	}
 	}
+	.sectionFive{
+		padding-bottom: 30px;
+		.urdates{
+			width: 60%;
+			display: flex;
+			justify-content: space-around;
+			margin-top: 50px;
+		}
+		.hr4{
+			
+			width: 94%;
+			margin: auto;
+			margin-top: 40px;
+		}
+		.divsecond{
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	.pbl{
+		@include pBlogs;
+	}
+	.Audi{
+@include Audii;
+	}
+	.pwhen{
+	@include when;	
+	}
+	.pshort{
+		@include short ;
+	}
+	.Display{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+.ptext{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-top: 20px;
+}
+.FlexBot{
+	display: flex;
+	flex-wrap: wrap;
+	width: 74%;
+	gap:50px;
+	margin: auto;
+	margin-top: 50px
+}
+.author{
+		@include Author;
+	}
+	.plorem{
+		@include LoremFun;
+		width:348px ;
+	}
+}
 
 

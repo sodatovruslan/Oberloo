@@ -113,5 +113,79 @@ color: #828282;
 	}
 	
 }
+@mixin when {
+	font-size: 20px;
+	font-weight: 600;
+	color: #333333;
+	width: 340px;
+
+}
+@mixin short {
+	font-size: 16px;
+	font-weight: 300;
+	color: #333333;
+	width: 340px;
+	line-height: 20px;
+
+}
+.sectionsecond{
+	margin-top: 150px;
+	.divsecond{
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	.pbl{
+		@include pBlogs;
+	}
+	.Audi{
+@include Audii;
+	}
+	.pwhen{
+	@include when;	
+	}
+	.pshort{
+		@include short ;
+	}
+	.Display{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+.ptext{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-top: 20px;
+}
+.FlexBot{
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	gap: 50px;
+}
+.author{
+		@include Author;
+	}
+	.plorem{
+		@include LoremFun;
+		width:348px ;
+	}
+	.Column{
+		display: flex;
+		flex-direction: column;
+		gap: 88px;
+	}
+	.LineHeight{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.secondChild{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
 
 

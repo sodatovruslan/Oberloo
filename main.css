@@ -395,4 +395,47 @@
   width: 460px;
   line-height: 28px;
   width: 348px;
+}
+
+.SectionSix {
+  background-color: #2642F8;
+  padding: 50px;
+}
+.SectionSix .Join {
+  font-size: 40px;
+  font-weight: 500;
+  color: #FFFFFF;
+  width: 762px;
+  margin: auto;
+  text-align: center;
+}
+.SectionSix .butget {
+  width: 180px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2642F8;
+  border: none;
+}
+.SectionSix .disp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.SectionSix .No {
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF;
+}
+.SectionSix .DIVFLEX {
+  display: flex;
+  gap: 50px;
+}
+.SectionSix .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }/*# sourceMappingURL=main.css.map */

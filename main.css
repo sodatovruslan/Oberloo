@@ -29,4 +29,65 @@
   display: flex;
   width: 800px;
   justify-content: space-around;
+}
+
+.sectionfirst {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+.sectionfirst .pbl {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectionfirst .moredata {
+  font-size: 44px;
+  font-weight: 700;
+  color: #000000;
+  width: 417px;
+}
+.sectionfirst .plorem {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  width: 460px;
+  line-height: 28px;
+}
+.sectionfirst .divPBL {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectionfirst .Pdec {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
+.sectionfirst .Daterange {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sectionfirst .DateDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.sectionfirst .author {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.sectionfirst .Audi {
+  font-size: 14px;
+  font-weight: 500;
+  color: #828282;
+}
+.sectionfirst .Display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }/*# sourceMappingURL=main.css.map */

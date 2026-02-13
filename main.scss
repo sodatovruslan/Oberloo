@@ -33,5 +33,85 @@ margin-top: 10px;
 
 
 }
+@mixin Author {
+	font-size: 16px;
+	font-weight: 600;
+	color:#000000 ;
+}
+@mixin pBlogs {
+	font-size: 14px;
+	font-weight: 600;
+	color:#000000 ;
+}
+@mixin Bigtext {
+	font-size: 44px;
+	font-weight: 700;
+	color: #000000;
+	width: 417px;
+}
+@mixin LoremFun {
+	font-size: 18px;
+font-weight: 500;
+color: #000000;
+width:460px ;
+line-height: 28px
+}
+@mixin Audii {
+	font-size: 14px;
+font-weight: 500;
+color: #828282;
+
+
+}
+
+.sectionfirst{
+	display: flex;
+
+	align-items: center;
+	justify-content: space-around;
+	width: 80%;
+	margin: auto;
+		margin-top: 100px;
+	.pbl{
+		@include pBlogs;
+	}
+	.moredata{
+		@include Bigtext;
+	}
+	.plorem{
+		@include LoremFun;
+	}
+	.divPBL{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.Pdec{
+		font-size: 14px;
+		font-weight: 500;
+		color: #828282;
+	}
+	.Daterange{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	.DateDiv{
+		display: flex;
+		justify-content: space-around;
+	}
+	.author{
+		@include Author;
+	}
+	.Audi{
+@include Audii;
+	}
+	.Display{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+	
+}
 
 

@@ -422,5 +422,40 @@ color: white
 		gap: 30px;
 	}
 }
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: auto;
+	
+	gap: 40px;
+	margin-top: 70px;
+	.POficce{justify-content: space-around;
+		font-size: 24px;
+		font-weight: 500;
+		color: #000000;
+	}
+	.Line{
+		display: flex;
+		flex-direction: column;
+		row-gap: 13px;
+	}
+	.cent{
+		margin-left: 200px;
+	}
+	.width{
+		width: 300px;
+		line-height: 24px;
+	}
+	.imgflex{
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+}
+
+
+
+
 
 
